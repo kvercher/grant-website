@@ -1,0 +1,137 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template/small-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.navbar {
+  background-color:  rgba(0, 0, 0, .8);
+}
+
+.horizontal-menu {
+  /*width: 200px; Set a width if you like */
+  position: relative;
+}
+
+.horizontal-menu a {
+   display: inline;
+   align-items: stretch; /* Default */
+   justify-content: center;
+   width: 100%;
+   padding: 0;
+
+}
+
+.horizontal-menu a:hover {
+ /* background-color: #ccc; Dark grey background on mouse-over */
+}
+
+.horizontal-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content3 { 
+  display: inline-block; 
+  flex-flow: row nowrap; 
+  align-items: center; 
+  padding: 5px;
+} 
+
+#wrapper {
+  width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#textbox {
+  margin-top:95px;
+  background-color:black;
+  position: absolute;
+  width: 2050px;
+  height: 3660px;
+  background: rgb(0, 0, 0);
+  top: -1x;
+  left: -1400px;
+  text-align: center;
+  z-index: -5
+}
+
+#content {
+  padding: 100px 30px;
+}
+
+#wrapper1 {
+  width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#textbox1 {
+  margin-top:50px;
+  background: rgba(0, 0, 0, .8);
+  position: absolute;
+  width: 475px;
+  height: 300px;
+  top: -60px;
+  left: -15px;
+  text-align: center;
+}
+
+#content1 {
+  padding: 100px 30px;
+}
+
+
+#wrapper2 {
+  width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#textbox2 {
+  margin-top:-175px;
+  background-color: rgba(0, 0, 0, .8);
+  position: absolute;
+  width: 1530px;
+  height: 75px;
+  top: -1x;
+  left: -460px;
+  text-align: center;
+}
+
+#content2 {
+  padding: 100px 30px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  line-height: 50px;
+}
+
+.footer-links {
+	padding: 0 10px 0 10px; /* padding-top, padding-right, padding-bottom, padding-left */
+}
+
